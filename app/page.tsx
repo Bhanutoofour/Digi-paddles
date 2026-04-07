@@ -162,7 +162,7 @@ const testimonials = [
   },
   {
     quote:
-            "They are not just designers — they are storytellers and growth partners. From our logo to our campaigns, DigiPaddles has been with us every step. Simply the best team we have worked with.",
+      "They are not just designers — they are storytellers and growth partners. From our logo to our campaigns, DigiPaddles has been with us every step. Simply the best team we have worked with.",
 
     author: "Tejas",
     role: "Founder, OccasionKart — Hyderabad",
@@ -170,7 +170,8 @@ const testimonials = [
     color: "#e63946",
   },
   {
-    quote: "DigiPaddles built our brand from scratch — website, branding and digital marketing all in one. The results were incredible. We are now ranking on Google and generating consistent Leads".
+    quote:
+      "DigiPaddles built our brand from scratch — website, branding and digital marketing all in one. The results were incredible. We are now ranking on Google and generating consistent Leads.",
     author: "Raju D",
     role: "COO, TekspotEDU",
     initial: "H",
