@@ -135,9 +135,10 @@ export default function ServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 rounded bg-white px-8 py-4 text-sm font-extrabold uppercase tracking-[0.07em] text-[#F4511E] transition-all hover:bg-[#080808] hover:text-white"
+            className="inline-flex items-center gap-2 rounded bg-white px-8 py-4 text-sm font-extrabold uppercase tracking-[0.07em] !text-[#080808] shadow-[0_14px_34px_rgba(8,8,8,0.14)] transition-all hover:-translate-y-0.5 hover:bg-[#fff4ef] hover:!text-[#F4511E]"
           >
-            Contact Us <ArrowRight className="h-5 w-5" />
+            <span className="!text-inherit">Contact Us</span>
+            <ArrowRight className="h-5 w-5 !text-inherit" />
           </Link>
         </div>
       </section>

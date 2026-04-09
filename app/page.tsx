@@ -226,20 +226,20 @@ export default function HomePage() {
             Transform Your Business with{" "}
             <em className="italic text-[#F4511E]">AI</em>
           </h1>
-          <p className="mb-9 max-w-[440px] text-base leading-[1.9] text-white/45">
+          <p className="mb-9 max-w-[440px] text-base leading-[1.9] text-white/72">
             We create intelligent websites, custom software, and AI agents that
             drive innovation and automate your business processes.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded bg-[#F4511E] px-7 py-3.5 text-[0.78rem] font-extrabold uppercase tracking-[0.07em] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#d93e10] hover:shadow-[0_12px_32px_rgba(244,81,30,0.35)]"
+              className="inline-flex items-center gap-2 rounded bg-[#F4511E] px-7 py-3.5 text-[0.78rem] font-extrabold uppercase tracking-[0.07em] text-[#080808] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#ff6a36] hover:shadow-[0_12px_32px_rgba(244,81,30,0.35)]"
             >
               Get Started <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/portfolio"
-              className="inline-flex items-center gap-2 rounded border-[1.5px] border-white/12 px-6 py-3 text-[0.78rem] font-bold uppercase tracking-[0.07em] text-white/60 transition-all duration-300 hover:border-white/40 hover:text-white"
+              className="inline-flex items-center gap-2 rounded border-[1.5px] border-white/22 bg-white/[0.03] px-6 py-3 text-[0.78rem] font-bold uppercase tracking-[0.07em] !text-white transition-all duration-300 hover:border-white/45 hover:bg-white/[0.06] hover:!text-white"
             >
               View Our Work
             </Link>
@@ -547,7 +547,7 @@ export default function HomePage() {
           </h2>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 rounded bg-white px-7 py-3.5 text-[0.78rem] font-extrabold uppercase tracking-[0.07em] text-[#F4511E] transition-all duration-250 hover:bg-[#080808] hover:text-white"
+            className="inline-flex items-center gap-2 rounded bg-white px-7 py-3.5 text-[0.78rem] font-extrabold uppercase tracking-[0.07em] text-[#080808] shadow-[0_14px_34px_rgba(8,8,8,0.14)] transition-all duration-250 hover:-translate-y-0.5 hover:bg-[#fff4ef] hover:text-[#F4511E]"
           >
             Get in Touch <ArrowRight className="h-4 w-4" />
           </Link>

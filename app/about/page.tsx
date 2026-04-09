@@ -28,13 +28,6 @@ const values = [
   },
 ];
 
-const milestones = [
-  "Founded DigiPaddles with a vision to bring AI into practical digital transformation.",
-  "Expanded our work from websites into automation, marketing, and custom software systems.",
-  "Established support across Canada and India to serve a broader client base.",
-  "Scaled into a multi-service digital team focused on AI-powered business growth.",
-];
-
 const team = [
   {
     name: "Bhanu Teja",
@@ -218,24 +211,30 @@ export default function AboutPage() {
         <div className="mx-auto max-w-5xl">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl lg:text-4xl">Our Journey</h2>
-            <p className="text-xl text-gray-600">Key milestones in our growth</p>
+            <p className="mx-auto max-w-4xl text-xl leading-8 text-gray-600">
+              Our journey is shaped by a clear vision to bridge traditional
+              business strategy with emerging technology. After completing a
+              master&apos;s degree at the State University of New York in 2014,
+              our founder developed a deep interest in applying advanced AI
+              capabilities to real-world business challenges and modern business
+              execution. That foundation led to the launch of DigiPaddles in
+              2026 as a modern digital partner built to integrate intelligent
+              technology, strategic thinking, and a high-performing team into
+              one efficient service model. Today, our focus is on helping
+              businesses adopt stronger websites, smarter software, and
+              practical AI-led solutions with clarity, quality, and long-term
+              value.
+            </p>
           </div>
-          <div className="space-y-8">
-            {milestones.map((milestone, index) => (
-              <div key={milestone} className="flex gap-6">
-                <div className="flex flex-col items-center">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#FF5722] text-sm text-white">
-                    {2018 + index}
-                  </div>
-                  {index < milestones.length - 1 ? (
-                    <div className="my-2 h-full w-0.5 bg-orange-200" />
-                  ) : null}
-                </div>
-                <div className="pb-8">
-                  <p className="text-lg text-gray-700">{milestone}</p>
-                </div>
-              </div>
-            ))}
+          <div className="rounded-[28px] border border-black/8 bg-white p-10 shadow-[0_14px_40px_rgba(0,0,0,0.04)]">
+            <p className="text-base leading-8 text-[#6B6B6B]">
+              DigiPaddles was founded with the belief that businesses should be
+              able to adopt advanced digital capabilities without unnecessary
+              complexity. By combining product thinking, implementation
+              discipline, and an AI-forward mindset, we are building a company
+              designed for organizations that want modern execution with
+              practical business relevance.
+            </p>
           </div>
         </div>
       </section>
